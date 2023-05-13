@@ -350,6 +350,14 @@ ul.row {
     margin-top: -8.5rem;
 }
 
+.section-hero .section-body {
+    padding: 10rem 4rem;
+}
+
+.section-hero .section-category {
+    text-transform: uppercase;
+}
+
 .hero-homepage {
     background-position: 75% 0;
     background-repeat: no-repeat;
@@ -369,13 +377,6 @@ ul.row {
     min-height: 50vh;
 }
 
-.section-hero .section-body {
-    padding: 10rem 4rem;
-}
-
-.section-hero .section-category {
-    text-transform: uppercase;
-}
 
   /* Section Latest news 
    ============================= */
