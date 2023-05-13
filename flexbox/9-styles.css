@@ -382,7 +382,7 @@ ul.row {
    ============================= */
 
 .section-about-us {
-    [class*='col-'] {
+    [class^='col-'] {
         align-self: center;
     }
 }
