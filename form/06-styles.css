@@ -154,12 +154,12 @@ a:active {
     transition-property: color, background-color;
 }
 
-.button-primary {
+.button .button-primary {
     color: var(--color-white);
     background-color: var(--color-primary);
 }
 
-.button-primary:hover {
+.button .button-primary:hover {
     color: var(--color-primary);
     background: var(--color-white);
 }
