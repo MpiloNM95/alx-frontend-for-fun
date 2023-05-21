@@ -678,11 +678,3 @@ fieldset {
     border: none;
     padding: 0 0 2rem;
 }
-
-legend {
-    display: flex;
-    flex-direction: column;
-    justify-content: column;
-    border: none;
-    padding: 0 0 2rem;
-}
