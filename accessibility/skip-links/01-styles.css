@@ -189,12 +189,12 @@ a:active {
     white-space: nowrap;
 }
 
-ul .off-screen {
+.off-screen {
     left: -100vw;
     position: absolute;
 }
 
-ul li a .skip-link {
+.skip-link {
     background: var(--color-black);
     color: var(--color-white);
     left: 0;
@@ -207,7 +207,7 @@ ul li a .skip-link {
     transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
-ul li a .skip-link:focus {
+.skip-link:focus {
     opacity: 1;
     transform: translateY(0);
 }
