@@ -15,10 +15,8 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 15px;
         border-radius: 1px;
-      }
-
-      .btn a {
-        font-size: 4px;
+        background-color: #ffffff;
+        border-radius: 4px; 
       }
     </style>
   </head>
@@ -170,10 +168,9 @@
               <p>Stay updated with our latest trends</p>
               <form action="#" method="post">
                 <div class="input-group">
-                    Email Address
-                    <label class="visually-hidden" for="email"></label>
-                  <input class="form-control" type="text" name="email" id="email">
-                  <div class="input-group-btn"><a class="btn" type="submit">Validate</a></div>
+                    <label class="visually-hidden" for="email">Email Address</label>
+                  <input class="form-control" type="email" name="email" id="email" autocomplete="email" required aria-required="true">
+                  <div class="input-group-btn"><button class="btn" type="submit">Validate</button></div>
                 </div>
               </form>
             </div>
